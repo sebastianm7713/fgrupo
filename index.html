@@ -13,253 +13,259 @@
 <body>
     <div class="grid-container">
         <!-- Logo y encabezado -->
-    <div class="logo text-center py-4">
-        <h1>Los Cayos de Pelé Store</h1>
-        <img class="img-fluid" src="/css/img/peleportada.jpg" id="imgs" alt="Portada de los Cayos de Pelé">
-    </div>
+        <div class="logo text-center py-4">
+            <h1>Los Cayos de Pelé Store</h1>
+            <img class="img-fluid" src="/css/img/peleportada.jpg" id="imgs" alt="Portada de los Cayos de Pelé">
+        </div>
         <!-- Título promocional -->
-    <div class="header text-center py-3">
-        <h1 class="titulo">¡Promociones Únicas! Estilos exclusivos y atención en tiempo real!</h1>
-    </div>
+        <div class="header text-center py-3">
+            <h1 class="titulo">¡Promociones Únicas! Estilos exclusivos y atención en tiempo real!</h1>
+        </div>
         <!-- Navegación -->
-    <div class="nav pt-4 text-center">
-        <a href="#Home" class="mx-3">Home</a>
-        <a href="#registro" class="mx-3">Iniciar sesión / Registrarse</a>
-        <a href="#productos" class="mx-3">Productos </a>
-        <a href="#contacto" class="mx-3">Quienes somos</a>
-    </div>
+        <div class="nav pt-4 text-center">
+            <a href="#Home" class="mx-3">Home</a>
+            <a href="#registro" class="mx-3">Iniciar sesión / Registrarse</a>
+            <a href="#productos" class="mx-3">Productos </a>
+            <a href="#contacto" class="mx-3">Quienes somos</a>
+        </div>
         <!-- Contenido principal -->
-    <div class="main" id="Home" class="container">
-        <h1 class="text-center">Bienvenido a Los Cayos de Pelé</h1>
-        <h1 class="text-center">Compra tus guayos aquí para que siempre la metas!</h1>
-    <div class="row justify-content-center">
-    <div class="col-12 col-md-4">
-        <img src="/css/img/1.avif" class="img-fluid" alt="Guayos modelo 1">
-    </div>
-    <div class="col-12 col-md-4">
-        <img src="/css/img/2.jpg" class="img-fluid" alt="Guayos modelo 2">
-    </div>
-    <div class="col-12 col-md-4">
-        <img src="/css/img/3.avif" class="img-fluid" alt="Guayos modelo 3">
-    </div>
-    </div>
-        <h1 class="text-center">Regístrate con nosotros y obtén un bono de descuento del 40%</h1>
-        
-    </div>
+        <div class="main" id="Home" class="container">
+            <h1 class="text-center">Bienvenido a Los Cayos de Pelé</h1>
+            <h1 class="text-center">Compra tus guayos aquí para que siempre la metas!</h1>
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-4">
+                    <img src="/css/img/1.avif" class="img-fluid" alt="Guayos modelo 1">
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="/css/img/2.jpg" class="img-fluid" alt="Guayos modelo 2">
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="/css/img/3.avif" class="img-fluid" alt="Guayos modelo 3">
+                </div>
+            </div>
+            <h1 class="text-center">Regístrate con nosotros y obtén un bono de descuento del 40%</h1>
+
+        </div>
         <!-- Formulario de registro e inicio de sesión -->
-  
-    <div class="container" ><form action="conexion.html" method="get">
-    <div class="mb-3" >
-        <label for="email" class="form-label">Email</label>
-        <input type="email" id="email" name="email" class="form-control" required>
-        <label for="password" class="form-label">Contraseña</label>
-        <input type="password" id="password" name="password" class="form-control" required>
-        <button type="submit" class="btn btn-primary">Iniciar sesión</button>
-        <input type="submit" value="Registrarse" class="btn btn-success">
-    </div>        
-    <div>
-    <div class="container">
-        <form >                          
-    <div class="mb-3">
-        <br><br><label for="tdoc" class="form-label">Tipo de documento</label>
-        <select name="tdoc" id="tdoc" class="form-select">tipo de documento
-        <option value="">CC</option>
-        <option value="">TI</option>
-        <option value="">RC</option>
-        <option value="">EX</option>
-        </select>
+        <div class="container" >
+            <form action="conexion.html" method="get">
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" id="email" name="email" class="form-control" required>
+                    <label for="password" class="form-label">Contraseña</label>
+                    <input type="password" id="password" name="password" class="form-control" required>
+                    <button type="submit" class="btn btn-primary">Iniciar sesión</button>
+                    <input type="submit" value="Registrarse" class="btn btn-success">
+                
+                <div>
+                    <div class="container">
+                        <form>
+                            <div class="mb-3">
+                                <br><br><label for="tdoc" class="form-label">Tipo de documento</label>
+                                <select name="tdoc" id="tdoc" class="form-select">tipo de documento
+                                    <option value="">CC</option>
+                                    <option value="">TI</option>
+                                    <option value="">RC</option>
+                                    <option value="">EX</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="ndoc" class="form-label">N°Documento</label>
+                                <input type="text" id="ndoc" name="ndoc" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="nom" class="form-label">Nombre </label>
+                                <input type="text" id="nom" name="nom" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="1ape" * class="form-label">1er Apellido</label>
+                                <input type="text" id="1ape" name="1ape" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="2ape" * class="form-label">2do Apellido</label>
+                                <input type="text" id="2ape" name="2ape" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="genero" class="form-label">Género</label>
+                                <select id="genero" name="genero" class="form-select" style="text-align: center;">
+                                    <option value="">Seleccione...</option>
+                                    <option value="Masculino">Masculino</option>
+                                    <option value="Femenino">Femenino</option>
+                                    <option value="Otro">Otro</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="edad" * class="form-label">Edad</label>
+                                <select id="edad" name="edad" class="form-select" style="text-align: center;">
+                                    <option value="">Seleccione...</option>
+                                    <option value="18">18</option>
+                                    <option value="19">19</option>
+                                    <option value="20">20</option>
+                                    <option value="21">21</option>
+                                    <option value="22">22</option>
+                                    <option value="23">23</option>
+                                    <option value="24">24</option>
+                                    <option value="25">25</option>
+                                    <option value="26">26</option>
+                                    <option value="27">27</option>
+                                    <option value="28">28</option>
+                                    <option value="29">29</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <div class="mb-3">
+                                    <label for="nac" class="form-label">Nacionalidad</label>
+                                    <select id="nac" name="nac" class="form-select" style="text-align: center;">
+                                        <option value="">Seleccione...</option>
+                                        <option value="col">Colombiano</option>
+                                        <option value="ven">Venezolano</option>
+                                        <option value="mex">Mexicano</option>
+                                        <option value="ale">Alemán</option>
+                                        <option value="ing">Inglés</option>
+                                        <option value="chi">Chileno</option>
+                                    </select>
+                                    <br>
+                                    <label for="ciu">Ciudad</label>
+                                    <input list="ciu" class="form-control" st>
+                                    <datalist id="ciu">
+                                        <option value="Medellin">Medellin</option>
+                                        <option value="Bogota">Bogota</option>
+                                        <option value="Cartagena">Cartagena</option>
+                                        <option value="Cucuta">Cucuta</option>
+                                        <option value="Barranquilla">Barranquilla</option>
+                                        <option value="Cali">Cali</option>
+                                        <option value="Buenaventura">Buenaventura</option>
+                                        <option value="Santa Marta">Santa Marta</option>
+                                        <option value="Choco">Choco</option>
+                                        <option value="ibague">Ibague</option>
+                                        <option value="Tolima">Tolima</option>
+                                        <option value="Florencia">Florencia</option>
+                                    </datalist><br>
+                                    <label for="mes">Fecha de Nacimiento</label>
+                                    <input type="date" id="mes" name="mes" class="form-control"
+                                        style="text-align: center;">
+                                    <div class="mb-3">
+                                        <label for="email" * class="form-label">Email</label>
+                                        <input type="email" id="email" name="email" class="form-control">
+                                        <label for="pasword" * class="form-label">Pasword</label>
+                                        <input type="password" id="pasword" name="pasword" class="form-control">
+                                        <button a="button"><a href="/registro/clase4-main/inicio de seccion.html"
+                                                onclick="alert" class="btn btn-primary">iniciar sesion</a></button>
+                                        <input type="submit" value="registrarse" class="btn btn-success">
+                        </form>
+                    </div>
+                </div>
+        </div>
     </div>
-    <div class="mb-3">
-        <label for="ndoc" class="form-label">N°Documento</label>
-        <input type="text" id="ndoc" name="ndoc" class="form-control">
     </div>
-    <div class="mb-3">
-        <label for="nom" class="form-label">Nombre </label>
-        <input type="text" id="nom" name="nom" class="form-control">
-    </div>
-    <div class="mb-3">
-        <label for="1ape" * class="form-label">1er Apellido</label>
-        <input type="text" id="1ape" name="1ape" class="form-control" >
-    </div>
-    <div class="mb-3">
-        <label for="2ape" * class="form-label">2do Apellido</label>
-        <input type="text" id="2ape" name="2ape" class="form-control">
-    </div>                                          
-    <div class="mb-3">
-        <label for="genero" class="form-label">Género</label>                                    
-        <select  id="genero" name="genero"  class="form-select"  style="text-align: center;">                                   
-        <option value="">Seleccione...</option>
-        <option value="Masculino">Masculino</option>
-        <option value="Femenino">Femenino</option>
-        <option value="Otro">Otro</option>
-        </select>
-    </div>
-    <div class="mb-3">
-        <label for="edad"* class="form-label">Edad</label>
-        <select id="edad" name="edad" class="form-select"  style="text-align: center;">
-        <option value="">Seleccione...</option>
-        <option value="18">18</option>
-        <option value="19">19</option>
-        <option value="20">20</option>
-        <option value="21">21</option>
-        <option value="22">22</option>
-        <option value="23">23</option>
-        <option value="24">24</option>
-        <option value="25">25</option>
-        <option value="26">26</option>
-        <option value="27">27</option>
-        <option value="28">28</option>
-        <option value="29">29</option>
-        </select>
-    </div>
-    <div class="mb-3">                          
-    <div class="mb-3">
-        <label for="nac" class="form-label">Nacionalidad</label>
-        <select id="nac" name="nac"  class="form-select" style="text-align: center;">
-        <option value="">Seleccione...</option>
-        <option value="col">Colombiano</option>
-        <option value="ven">Venezolano</option>
-        <option value="mex">Mexicano</option>
-        <option value="ale">Alemán</option>
-        <option value="ing">Inglés</option>
-        <option value="chi">Chileno</option>
-        </select>
-        <br>
-        <label for="ciu">Ciudad</label>
-        <input list="ciu"  class="form-control" st>                               
-        <datalist id="ciu">                                    
-        <option value="Medellin">Medellin</option>
-        <option value="Bogota">Bogota</option>
-        <option value="Cartagena">Cartagena</option>
-        <option value="Cucuta">Cucuta</option>
-        <option value="Barranquilla">Barranquilla</option>
-        <option value="Cali">Cali</option>
-        <option value="Buenaventura">Buenaventura</option>
-        <option value="Santa Marta">Santa Marta</option>
-        <option value="Choco">Choco</option>
-        <option value="ibague">Ibague</option>
-        <option value="Tolima">Tolima</option>
-        <option value="Florencia">Florencia</option>        
-        </datalist><br>               
-        <label for="mes">Fecha de Nacimiento</label>                                
-        <input type="date" id="mes" name="mes" class="form-control" style="text-align: center;">        
-    <div class="mb-3">
-        <label for="email" * class="form-label">Email</label>
-        <input type="email" id="email" name="email" class="form-control">
-        <label for="pasword" * class="form-label">Pasword</label>
-        <input type="password" id="pasword" name="pasword" class="form-control">                                 
-        <button a="button"><a href="/registro/clase4-main/inicio de seccion.html" onclick="alert" class="btn btn-primary">iniciar sesion</a></button>
-        <input type="submit" value="registrarse" class="btn btn-success">
-        </form>
-    </div>                            
-    </div>
-    </div>
-    </div>
-    </div>
-        </form>
-              <!-- Carrusel de productos -->
+    </div></div>
+    </form>
+    <!-- Carrusel de productos -->
     <div class="main" id="productos">
-    <div id="carruselGuayos" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-    <div class="carousel-item active">
-        <img src="/css/img/camisaus.jpg" class="d-block w-100 img-fluid" alt="camisa">
-    <div class="carousel-caption d-none d-md-block">
-        <h5>Camiseta Licra</h5>
-        <p>Diseñadas para mantener el cuerpo siempre fresco.</p>
-        <a href="#" class="btn btn-primary">Comprar Ahora</a>
-    </div>
-    </div>
-    <div class="carousel-item">
-        <img src="/css/img/guayo1.jpg" class="d-block w-100 img-fluid" alt="Guayo 1">
-    <div class="carousel-caption d-none d-md-block">
-        <h5>Guayos Adidas Ultimate</h5>
-        <p>Máxima velocidad en cada paso.</p>
-        <a href="#" class="btn btn-primary">Comprar Ahora</a>
-    </div>
-    </div>
-    <div class="carousel-item">
-        <img src="/css/img/guayo2.jpg" class="d-block w-100 img-fluid" alt="Guayo 2">
-    <div class="carousel-caption d-none d-md-block">
-        <h5>Guayos Adidas Future</h5>
-        <p>Perfectos para cualquier tipo de campo.</p>
-        <a href="#" class="btn btn-primary">Comprar Ahora</a>
-    </div>                 
-        <button class="carousel-control-prev" type="button" data-bs-target="#carruselGuayos" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Anterior</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carruselGuayos" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Siguiente</span>
-        </button>
-    </div>
-    </div>
-    </div>
+        <div id="carruselGuayos" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/css/img/camisaus.jpg" class="d-block w-100 img-fluid" alt="camisa">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Camiseta Licra</h5>
+                        <p>Diseñadas para mantener el cuerpo siempre fresco.</p>
+                        <a href="#" class="btn btn-primary">Comprar Ahora</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/css/img/guayo1.jpg" class="d-block w-100 img-fluid" alt="Guayo 1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Guayos Adidas Ultimate</h5>
+                        <p>Máxima velocidad en cada paso.</p>
+                        <a href="#" class="btn btn-primary">Comprar Ahora</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/css/img/guayo2.jpg" class="d-block w-100 img-fluid" alt="Guayo 2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Guayos Adidas Future</h5>
+                        <p>Perfectos para cualquier tipo de campo.</p>
+                        <a href="#" class="btn btn-primary">Comprar Ahora</a>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carruselGuayos"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carruselGuayos"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Siguiente</span>
+                    </button>
+                </div>
+            </div>
+        </div>
         <!-- Carrito de compras -->
-    <div class="shopping-cart" >
-        <h1>Carrito de Compras</h1>
-    <div class="cart-item">
-        <img src="/css/img/guayo1.jpg" width="20%" alt="Producto 1" class="img-fluid">
-    <div class="item-details">
-        <h2>Guayos Adidas Ultimate</h2>
-        <p>Precio: $250.000</p>
-        <label for="quantity1">Cantidad:</label>
-        <input type="number" id="quantity1" value="1" min="1" class="form-control">
-        <label for="talla1">Talla:</label>
-        <select name="talla1" id="talla1" class="form-control">
-        <option value="38">38</option>
-        <option value="39">39</option>
-        <option value="40">40</option>
-        <option value="41">41</option>
-        <option value="42">42</option>
-        <option value="43">43</option>
-        <option value="44">44</option>
-        </select>                
-        <button class="remove-btn btn btn-danger">Eliminar</button>
+        <div class="shopping-cart">
+            <h1>Carrito de Compras</h1>
+            <div class="cart-item">
+                <img src="/css/img/guayo1.jpg" width="20%" alt="Producto 1" class="img-fluid">
+                <div class="item-details">
+                    <h2>Guayos Adidas Ultimate</h2>
+                    <p>Precio: $250.000</p>
+                    <label for="quantity1">Cantidad:</label>
+                    <input type="number" id="quantity1" value="1" min="1" class="form-control">
+                    <label for="talla1">Talla:</label>
+                    <select name="talla1" id="talla1" class="form-control">
+                        <option value="38">38</option>
+                        <option value="39">39</option>
+                        <option value="40">40</option>
+                        <option value="41">41</option>
+                        <option value="42">42</option>
+                        <option value="43">43</option>
+                        <option value="44">44</option>
+                    </select>
+                    <button class="remove-btn btn btn-danger">Eliminar</button>
+                </div>
+            </div>
+            <div class="cart-item">
+                <img src="/css/img/guayo2.jpg" width="20%" alt="Producto 2" class="img-fluid">
+                <div class="item-details">
+                    <h2>Guayos Adidas Future</h2>
+                    <p>Precio: $200.000</p>
+                    <label for="quantity2">Cantidad:</label>
+                    <input type="number" id="quantity2" value="1" min="1" class="form-control">
+                    <label for="talla2">Talla:</label>
+                    <select name="talla2" id="talla2" class="form-control">
+                        <option value="38">38</option>
+                        <option value="39">39</option>
+                        <option value="40">40</option>
+                        <option value="41">41</option>
+                        <option value="42">42</option>
+                        <option value="43">43</option>
+                        <option value="44">44</option>
+                    </select>
+                </div>
+                <button class="remove-btn btn btn-danger">Eliminar</button>
+            </div>
+            <div class="total">
+                <h3>Total: $450.000</h3>
+                <button class="checkout-btn btn btn-success">Pagar</button>
+            </div>
+        </div>
     </div>
     </div>
-    <div class="cart-item">
-        <img src="/css/img/guayo2.jpg" width="20%" alt="Producto 2" class="img-fluid">
-    <div class="item-details">
-        <h2>Guayos Adidas Future</h2>
-        <p>Precio: $200.000</p>
-        <label for="quantity2">Cantidad:</label>
-        <input type="number" id="quantity2" value="1" min="1" class="form-control">
-        <label for="talla2">Talla:</label>
-        <select name="talla2" id="talla2" class="form-control">
-        <option value="38">38</option>
-        <option value="39">39</option>
-        <option value="40">40</option>
-        <option value="41">41</option>
-        <option value="42">42</option>
-        <option value="43">43</option>
-        <option value="44">44</option>
-        </select>
-    </div>
-        <button class="remove-btn btn btn-danger">Eliminar</button>
-    </div>
-    <div class="total">
-        <h3>Total: $450.000</h3>
-        <button class="checkout-btn btn btn-success">Pagar</button>
-    </div>
-    </div>
-    </div>
-    </div>
-        <!-- Información sobre la empresa -->
+    <!-- Información sobre la empresa -->
     <div class="main" id="contacto" class="container">
         <br>
-            <img src="/css/img/2.jpg" width="20%" alt="">
-       
+        <img src="/css/img/2.jpg" width="20%" alt="">
+
         <div class="titulo">
         </div>
-        <br><br><br><hr><br><br>
+        <br><br><br>
+        <hr><br><br>
         <div class="imagen1">
             <h1 id="morado">¿Como surgimos?</h1>
-           
+
             <h3 id="derecha">Los callos de pele, fue una empresa que surgio
                 gracias a que pudimos asociarnos directamente<br><br> con empresas de renombre
                 en creacion de articulos deportivos tales como: <br><br>Adidas , Puma , Nike , New balance ,
-                entre otras , esto nos hizo tomar la iniciativa<br><br> para crear nuestra propia tienda de 
+                entre otras , esto nos hizo tomar la iniciativa<br><br> para crear nuestra propia tienda de
                 zapatos deportivos tales como :<br><br> guayos , tenis guayos , zapatos de atletismo , entre otros
                 productos que iremos ofreciendo mas adelante.<br><br>Toda nuestra mercancia es original ,
                 y de la mejor calidad , exportada directamente desde:<br><br>Alemania , Asia , Estados Unidos
@@ -270,66 +276,68 @@
         <hr>
         <div>
             <h1 style="color: #bb43a1;">Mision</h1>
-            <h3 id="derecha2">  -Producir y comercializar guayos de calidad<br>
+            <h3 id="derecha2"> -Producir y comercializar guayos de calidad<br>
                 <br>-Satisfacer las necesidades de los clientes<br>
                 <br>-Ofrecer un ambiente de trabajo agradable<br>
                 <br>-Mejorar la calidad de vida de los colaboradores y sus familias<br>
                 <br>-Contribuir a la construcción de un mejor país<br>
                 <br>-Minimizar la afectación del medio ambiente<br>
-                <br>-Crear principios de responsabilidad social <br></h3>
+                <br>-Crear principios de responsabilidad social <br>
+            </h3>
         </div><br><br><br><br><br>
         <hr>
         <div>
             <h1 style="color: #bb43a1;">Vision</h1>
             <h3 id="derecha3"> -Satisfacer las necesidades de los clientes con una excelente atención y servicio,<br>
-                 y con productos de calidad <br>
+                y con productos de calidad <br>
                 <br>-Construir relaciones de confianza a largo plazo con los clientes <br>
                 <br>-Ofrecer una mejor calidad de vida a los clientes <br>
                 <br>-Confiar en que es posible encontrar un calzado adecuado para cada persona<br>
                 <br>-Ser una de las mejores empresas de calzado deportivo del mundo<br>
-                <br>-Expandir nuestra empresa a todo el  mundo
-             </h3>
+                <br>-Expandir nuestra empresa a todo el mundo
+            </h3>
         </div><br><br><br><br><br>
         <hr>
         <div>
             <h1 style="color: #bb43a1;">Nuestros valores</h1>
             <h3 id="derecha4">-Integridad: Demostrar actitudes positivas de manera transparente<br>
-                 aspirando a la calidad, la eficacia y la perfección humana <br>
+                aspirando a la calidad, la eficacia y la perfección humana <br>
                 <br>-Honestidad: Armonizar las palabras con los hechos, tener identidad y coherencia<br>
                 <br>-Respeto: Reconocer, apreciar y valorar a las personas, a uno mismo y al entorno<br>
                 <br>-Perseverancia: Alcanzar lo propuesto y buscar soluciones a las dificultades<br>
                 <br>-Humildad: Reconocer las debilidades, cualidades y capacidades<br>
-                 para aprovecharlasen beneficio de los demás 
+                para aprovecharlasen beneficio de los demás
                 <br>-Responsabilidad social: Ser responsable con el entorno <br>
                 <br>-Ética: Actuando apegados a los valores, que son el conjunto de<br>
-                 normas que rigen la conducta organizacional e individual 
-                <br>-Lealtad: Ser fiel a los principios y creencias, y que los actos sean 
+                normas que rigen la conducta organizacional e individual
+                <br>-Lealtad: Ser fiel a los principios y creencias, y que los actos sean
                 coherentes con ellos<br>
-                <br>-Honorabilidad: Cumplir con las obligaciones para con la sociedad y las personas<br> </h3>
+                <br>-Honorabilidad: Cumplir con las obligaciones para con la sociedad y las personas<br>
+            </h3>
         </div><br><br><br><br><br>
         <hr>
         <div>
             <h1 style="color: #bb43a1;" id="izquierda">Puedes contactarnos</h1>
         </div>
     </div>
-    <div class="footer">  
-        <a href="https://www.facebook.com/?_rdr"> 
-        <button><img src="/css/img/facebooklogo.png" height="30px" alt=""></button>
+    <div class="footer">
+        <a href="https://www.facebook.com/?_rdr">
+            <button><img src="/css/img/facebooklogo.png" height="30px" alt=""></button>
         </a>
         <a href="https://web.whatsapp.com/">
-        <button><img src="/css/img/WhatsApp_icon.png" height="30px" alt=""></button>
+            <button><img src="/css/img/WhatsApp_icon.png" height="30px" alt=""></button>
         </a>
         <a href="https://x.com/">
-        <button><img src="/css/img/xlogo.webp" height="30px" alt=""></button>
+            <button><img src="/css/img/xlogo.webp" height="30px" alt=""></button>
         </a>
         <a href="https://www.instagram.com/">
-        <button><img src="/css/img/Instagram_icon.png.webp" height="30px" alt=""></button>
+            <button><img src="/css/img/Instagram_icon.png.webp" height="30px" alt=""></button>
         </a>
     </div>
     </div>
 
     <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 
 </html>
