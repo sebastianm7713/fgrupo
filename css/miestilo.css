@@ -80,6 +80,7 @@ footer {
 .carousel-item img {
     height: 500px;
     object-fit: cover;
+    height: auto;
 }
 
 a{
@@ -127,7 +128,7 @@ body {
 
 /* Estilo para los títulos */
 .titulo {
-    color: #5a5a5a;
+    color: #ffffff;
     font-size: 1.8rem;
     font-weight: 500;
 }
@@ -152,27 +153,32 @@ body {
     font-size: 2rem;
     color: #333;
     margin: 20px 0;
+    height: auto;
 }
 
 /* Carrusel */
 .carousel-inner img {
     max-height: 500px;
     object-fit: cover;
+    height: auto;
 }
 
 .carousel-caption {
     background: rgba(0, 0, 0, 0.5);
     padding: 20px;
+    height: auto;
 }
 
 .carousel-caption h5 {
     font-size: 1.8rem;
     color: #fff;
+    height: auto;
 }
 
 .carousel-caption p {
     font-size: 1rem;
     color: #ddd;
+    height: auto;
 }
 
 /* Formularios */
